@@ -14,6 +14,7 @@ git clone --branch v1.0.3 https://github.com/Zulko/moviepy.git moviepy103
 cd moviepy103
 pip install .
 pip install pillow==9.5.0
+
 python3 -c 'from moviepy.editor import *; print("✅ MoviePy hoạt động 
 OK!")'
 
